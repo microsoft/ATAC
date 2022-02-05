@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ATAC
 ### <em>Adversarially Trained Actor Critic for Offline Reinforcement Learning </em>by Ching-An Cheng*, Tengyang Xie*, Nan Jiang, Alekh Agarwal
 <br>
