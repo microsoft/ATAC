@@ -26,7 +26,7 @@ pip install -e .[mujoco200]
 ```
 python scripts/main.py
 ```
-=======
+
 # Project
 
 > This repo has been populated by an initial template to help get you started. Please
@@ -60,4 +60,3 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
->>>>>>> 6ba8f72040b4b20692941421140b07a1267159e4
