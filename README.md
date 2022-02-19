@@ -1,6 +1,6 @@
 # ATAC: Adversarially Trained Actor Critic
 <em>Adversarially Trained Actor Critic for Offline Reinforcement Learning </em>by Ching-An Cheng*, Tengyang Xie*, Nan Jiang, and Alekh Agarwal.
-<br>
+<br> https://arxiv.org/abs/2202.02446
 
 ### Setup 
 

@@ -1,4 +1,3 @@
-"""This modules creates a cql model in PyTorch."""
 # yapf: disable
 from collections import deque
 import copy
