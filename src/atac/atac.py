@@ -456,7 +456,7 @@ class ATAC(RLAlgorithm):
                 self._cac_learning = True
                 # Reset optimizers since the objective changes
                 if self._use_automatic_entropy_tuning:
-                    self._log_alpha = torch.Tensor([self._initial_log_entropy]).requires_grad_().to(self._log_alpha.device)
+                    self._log_alpha = torch.Tensor([self._initial_log_entropy]).to(self._log_alpha.device).requires_grad_()
                     self._alpha_optimizer = self._optimizer([self._log_alpha], lr=self._alpha_lr)
                 self._policy_optimizer = self._optimizer(self.policy.parameters(), lr=self._policy_lr)
 
@@ -506,6 +506,7 @@ class ATAC(RLAlgorithm):
             self._alpha_optimizer = self._optimizer([self._log_alpha],
                                                     lr=self._alpha_lr)
         self.beta = torch.Tensor([self.beta]).to(device)
+        self._lambd = torch.Tensor([self._lambd]).to(device)
 
     # Return also the target policy if needed
     @property
