@@ -1,6 +1,8 @@
 # ATAC: Adversarially Trained Actor Critic
-<em>Adversarially Trained Actor Critic for Offline Reinforcement Learning </em>by Ching-An Cheng*, Tengyang Xie*, Nan Jiang, and Alekh Agarwal.
-<br> https://arxiv.org/abs/2202.02446
+
+This repository contains the code to reproduce the experimental results of ATAC algorithm in the paper <em>Adversarially Trained Actor Critic for Offline Reinforcement Learning </em>by Ching-An Cheng*, Tengyang Xie*, Nan Jiang, and Alekh Agarwal (https://arxiv.org/abs/2202.02446). 
+
+***Please see also https://github.com/microsoft/lightATAC for a lightweight reimplementation of ATAC, which gives a 1.5-2X speed up compared with the original code here.
 
 ### Setup 
 
